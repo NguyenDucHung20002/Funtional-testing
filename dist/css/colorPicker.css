@@ -1,0 +1,80 @@
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: pink;
+}
+
+.picker {
+  width: 500px;
+  height: 550px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 11px 1px #000000;
+          box-shadow: 0px 0px 11px 1px #000000;
+}
+
+.picker .name-picker {
+  text-align: center;
+  color: #3c5186;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.picker .submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.picker .submit .input-picker {
+  border: 1px solid rgba(60, 81, 134, 0.3);
+  padding: 10px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  border-radius: 5px;
+}
+
+.picker .submit .add-picker {
+  padding: 0 30px;
+  background-color: #3c5186;
+  color: white;
+  border-radius: 5px;
+}
+
+.picker ul {
+  background-color: #f0f0f0;
+  margin-top: 30px;
+  border-radius: 5px;
+  padding: 1px 0;
+  overflow: auto;
+  max-height: 232.5px;
+}
+
+.picker ul li {
+  border-radius: 5px;
+}
+
+.picker ul li p {
+  margin: 5px 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.textline {
+  -webkit-text-decoration: underline red;
+          text-decoration: underline red;
+}
+/*# sourceMappingURL=colorPicker.css.map */

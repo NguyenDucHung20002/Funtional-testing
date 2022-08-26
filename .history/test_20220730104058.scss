@@ -1,0 +1,12 @@
+@import "grid";
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  img {
+    width: 25%;
+    border-radius: 5px;
+    overflow: hidden;
+    object-fit: contain;
+  }
+}

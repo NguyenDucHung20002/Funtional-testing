@@ -1,0 +1,10 @@
+@import "grid";
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  gap: 30px;
+  border-radius: 20px;
+  img {
+    height: 300px;
+  }
+}

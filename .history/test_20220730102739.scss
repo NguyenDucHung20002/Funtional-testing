@@ -1,0 +1,5 @@
+@import "grid";
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+}
